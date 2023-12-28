@@ -7,9 +7,9 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 app = FastAPI(title='STEAM Games Queries', description='Esta es una aplicación para realizar consultas sobre todo el mundo de STEAM.')
 
-items_games = pd.read_parquet('items_games_API.parquet')
-reviews_games = pd.read_parquet('reviews_games.parquet')
-steam_games = pd.read_parquet('steam_games_API.parquet')
+items_games = pd.read_parquet('items_games_API_reducido.parquet')
+reviews_games = pd.read_parquet('reviews_games_reducido.parquet')
+steam_games = pd.read_parquet('steam_games_API_reducido.parquet')
 
 
 @app.get("/")
