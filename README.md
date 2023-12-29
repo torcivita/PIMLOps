@@ -69,10 +69,10 @@ Con este proceso, en el archivo [ML.ipynb](<Jupyter Notebooks/ML.ipynb>) creé u
 Para el desarrollo de la API utilicé el Framework FastAPI. A la misma la desarrollé en el archivo [main.py](main.py).
 La API contiene las 5 funciones de consultas sobre videojuegos desarrolladas en el archivo [TestAPI.ipynb](<Jupyter Notebooks/TestAPI.ipynb>) y, además, contiene una sexta función que es el modelo de recomendación de videojuegos desarrollado en el archivo [ML.ipynb](<Jupyter Notebooks/ML.ipynb>).
 
-Tuve problemas para realizar el despliegue de la API en Render, como se solicita en las consignas del trabajo, pero de todas maneras pude grabar un video de su funcionamiento haciendo un despliegue desde la terminal de mi PC con el comando *uvicorn main:app --port 8001*. 
+Tuve problemas para realizar el despliegue de la API en Render, como se solicita en las consignas del trabajo, pero de todas maneras pude grabar un video de su funcionamiento haciendo un despliegue desde la terminal de mi PC con el comando '*uvicorn main:app --port 8002*'. 
 El problema del despliegue en Render se dio por un límite en la memoria de procesamiento de la versión gratuita. Intenté solucionarlo, por consejo de mis compañeros, achicando los archivos de donde se ectraen los datos de consulta, los reduje a un 10% de su tamaño original (proceso en el archivo [Reducción Archivos.ipynb](<Jupyter Notebooks/Reducción Archivos.ipynb>)) pero ni así logré que funcione.
 
-Link del video:
+Link del video: [LINK](https://drive.google.com/file/d/1x2RXdBrqLFluhoVKx0O5WEIt_xu6_gf1/view?usp=drive_link)
 
 ### Librerías y Frameworks
 Utilicé las siguientes librerías
