@@ -75,11 +75,17 @@ El problema del despliegue en Render se dio por un límite en la memoria de proc
 Link del video: [LINK](https://drive.google.com/file/d/1x2RXdBrqLFluhoVKx0O5WEIt_xu6_gf1/view?usp=drive_link)
 
 ### Librerías y Frameworks
-Utilicé las siguientes librerías
-    - **os**, **datetime**, **gzip** y **json** para abrir los archivos del dataset, manipulación de estructuras de datos, carga de dataframes, etc.
-    - **pandas** y **numpy** para la manipular y procesar datos.
-    - **Matplotlib** y **Seaborn** para la visualización de datos.
-    - **nltk** para el análisis de lenguaje natural.
-    - **scikit-learn** para el aprendizaje automático del modelo de recomendación.
-    - **FastAPI** para construir la API con Python.
+Utilicé las siguientes librerías:
+
+- **os**, **datetime**, **gzip** y **json** para abrir los archivos del dataset, manipulación de estructuras de datos, carga de dataframes, etc.
+
+- **pandas** y **numpy** para la manipular y procesar datos.
+
+- **Matplotlib** y **Seaborn** para la visualización de datos.
+
+- **nltk** para el análisis de lenguaje natural.
+
+- **scikit-learn** para el aprendizaje automático del modelo de recomendación.
+
+- **FastAPI** para construir la API con Python.
     
